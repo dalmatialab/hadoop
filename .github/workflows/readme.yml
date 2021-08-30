@@ -2,6 +2,8 @@ name: Push README to DockerHub
 
 on:
   push:
+    paths:
+      - 'README.md'
 
 env:
   IMAGE_NAME: ${{ github.event.repository.name }}
