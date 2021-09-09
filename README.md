@@ -48,6 +48,10 @@ This is *required* variable. It specifies Hadoop cluster name.
 
 This is *required* variable. It specifies Hadoop namenode endpoint at which datanode will connect.
 
+**TZ**
+
+This is *optional* variable. It specifes timezone. Default value is `Europe/Zagreb`.
+
 ## Ports
 
 Hadoop namenode exposes user interface at port 9870.

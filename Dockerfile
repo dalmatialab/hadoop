@@ -1,6 +1,11 @@
 FROM ubuntu:20.04
 LABEL maintainer="dalmatialab"
 
+# Install tzdata and set right timezone
+ENV DEBIAN_FRONTEND="noninteractive"
+RUN apt update && apt-get -y install tzdata
+ENV TZ=Europe/Zagreb
+
 # Java installation
 RUN apt-get update && apt-get install -y openjdk-8-jdk wget
 ENV JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/
