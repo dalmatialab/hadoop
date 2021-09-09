@@ -3,8 +3,8 @@
 
 # Supported tags and respective Dockerfile links
 
- - 3.3.0-rc-1
- - 3.3.0-rc-2
+ - [3.3.0-rc-1](https://github.com/dalmatialab/hadoop/blob/786b798a4eb7578669f00682a6b7db6257a576b1/Dockerfile)
+ - [3.3.0-rc-2](https://github.com/dalmatialab/hadoop/blob/9c8c8986642ec1c4b6853a24ea2864d01127d7ce/Dockerfile)
 
 # What is Hadoop ? 
 
