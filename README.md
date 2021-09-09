@@ -4,6 +4,7 @@
 # Supported tags and respective Dockerfile links
 
  - 3.3.0-rc-1
+ - 3.3.0-rc-2
 
 # What is Hadoop ? 
 
